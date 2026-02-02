@@ -14,6 +14,14 @@ override.tf.json
 .terraformrc
 terraform.rc
 .terraform.lock.hcl
+*.tfplan
+*.tfplan.binary
+tfplan.binary
+
+# Generated graph files
+terraform-graph.dot
+terraform-graph.png
+terraform-graph.svg
 
 # IDE
 .idea/
